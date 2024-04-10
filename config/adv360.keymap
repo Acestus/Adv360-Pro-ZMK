@@ -17,6 +17,13 @@
             bindings = <&kp RET>;
         };
 
+        run_line: run_line {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(F12) &kp LC(V) &kp ESC>;
+            label = "RUN_LINE";
+        };
+
         #endif
 
         hm: homerow_mods {
@@ -52,7 +59,7 @@
 &kp TAB    &kp Q      &kp LG(N7)   &kp LG(N8)       &kp LG(N9)       &kp LC(INS)  &none                                       &none      &kp Y   &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp BSLH
 &kp ESC    &kp A      &kp LG(N4)   &kp LG(N5)       &kp LG(N6)       &kp G        &none   &trans  &trans      &trans  &trans  &none      &kp H   &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &kp SQT
 &kp LSHFT  &kp Z      &kp LG(N1)   &kp LG(N2)       &kp LG(N3)       &kp B                        &trans      &trans                     &kp N   &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS     &trans           &trans                        &trans  &trans  &trans      &trans  &trans  &kp KP_N0          &trans      &trans        &kp KP_DOT     &kp RBKT         &mo 2
+&mo 2      &kp GRAVE  &kp CAPS     &trans           &run_line                     &trans  &trans  &trans      &trans  &trans  &kp KP_N0          &trans      &trans        &kp KP_DOT     &kp RBKT         &mo 2
             >;
         };
 
