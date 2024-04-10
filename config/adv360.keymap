@@ -38,11 +38,11 @@
 
         default_layer {
             bindings = <
-&mt DLLR HASH      &mt PRCNT AMPS  &mt N7 LBKT  &mt N5 LBRC  &mt N3 RBRC  &mt N1 LPAR  &tog 1                                                   &mo 3      &kp N6  &kp N7       &kp N8        &kp N9      &kp N0      &kp MINUS
-&kp BACKSLASH      &mt COLON SEMI  &kp COMMA    &kp DOT      &mt LC(V) P  &mt LC(C) Y  &none                                                    &none      &kp F   &kp G        &kp C         &kp R       &kp L       &kp FSLH
-&kp LS(LA(LCTRL))  &hm LGUI A      &hm LALT O   &hm LSHFT E  &hm LCTRL U  &kp I        &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp D   &hm RCTRL H  &hm RSHIFT T  &mt RALT N  &hm RGUI S  &kp MINUS
-&kp LSHFT          &kp Z           &kp X        &kp C        &kp V        &kp B                             &kp HOME      &kp PG_UP                        &kp N   &kp M        &kp COMMA     &kp DOT     &kp FSLH    &kp RSHFT
-&mo 2              &kp GRAVE       &kp CAPS     &kp LEFT     &kp RIGHT                 &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP       &kp DOWN      &kp LBKT    &kp RBKT    &mo 2
+&mt DLLR HASH      &mt PRCNT AMPS  &mt N7 LBKT  &mt N5 LBRC  &mt N3 RBRC  &mt N1 LPAR  &tog 1                                                   &mo 3      &mt LS(N9) EQUAL  &mt LS(N0) STAR  &mt RPAR LS(N2)  &mt LS(N4) PLUS  &mt RBKT LS(N6)  &mt N8 EXCL
+&kp BACKSLASH      &mt COLON SEMI  &kp COMMA    &kp DOT      &mt LC(V) P  &mt LC(C) Y  &none                                                    &none      &kp F             &kp G            &kp C            &kp R            &kp L            &kp FSLH
+&kp LS(LA(LCTRL))  &hm LGUI A      &hm LALT O   &hm LSHFT E  &hm LCTRL U  &kp I        &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp TAB    &none      &kp D             &hm RCTRL H      &hm RSHIFT T     &mt RALT N       &hm RGUI S       &kp MINUS
+&kp LSHFT          &kp SQT         &kp Q        &kp J        &kp K        &kp X                             &kp HOME      &kp PG_UP                        &kp B             &kp M            &kp W            &kp V            &kp Z            &kp RSHFT
+&kp LSHFT          &kp HOME        &kp END      &kp LEFT     &kp RIGHT                 &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE                    &kp UP           &kp DOWN         &kp TILDE        &kp AT           &kp LSHFT
             >;
         };
 
