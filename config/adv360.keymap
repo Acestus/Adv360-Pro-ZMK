@@ -47,7 +47,7 @@
             bindings = <
 &mt DLLR HASH      &mt PRCNT AMPS  &mt N7 LBKT  &mt N5 LBRC  &mt N3 RBRC  &mt N1 LPAR  &tog 1                                                   &mo 3      &mt LS(N9) EQUAL  &mt LS(N0) STAR  &mt RPAR LS(N2)  &mt LS(N4) PLUS  &mt RBKT LS(N6)  &mt N8 EXCL
 &kp BACKSLASH      &mt COLON SEMI  &kp COMMA    &kp DOT      &mt LC(V) P  &mt LC(C) Y  &none                                                    &none      &kp F             &kp G            &kp C            &kp R            &kp L            &kp FSLH
-&kp LS(LA(LCTRL))  &hm LGUI A      &hm LALT O   &hm LSHFT E  &hm LCTRL U  &kp I        &none     &kp LCTRL  &kp LALT      &kp PG_UP  &kp TAB    &none      &kp D             &hm RCTRL H      &hm RSHIFT T     &mt RALT N       &hm RGUI S       &kp MINUS
+&kp LS(LA(LCTRL))  &kp A           &hm LALT O   &kp E        &hm LCTRL U  &kp I        &none     &kp LCTRL  &kp LALT      &kp PG_UP  &kp TAB    &none      &kp D             &hm RCTRL H      &kp T            &mt RALT N       &kp S            &kp MINUS
 &kp LSHFT          &kp SQT         &kp Q        &kp J        &kp K        &kp X                             &kp LGUI      &kp PG_DN                        &kp B             &kp M            &kp W            &kp V            &kp Z            &kp RSHFT
 &kp LSHFT          &kp HOME        &kp END      &kp LEFT     &kp RIGHT                 &kp BSPC  &kp DEL    &mo 1         &kp ESC    &kp ENTER  &kp SPACE                    &kp UP           &kp DOWN         &kp TILDE        &kp AT           &kp LSHFT
             >;
@@ -56,7 +56,7 @@
         keypad {
             bindings = <
 &kp EQUAL  &trans         &kp LA(F12)  &kp LA(LC(TAB))  &kp LS(LC(TAB))  &kp LC(TAB)  &trans                                      &mo 3      &trans  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp LC(F12)
-&trans     &kp Q          &kp LG(N7)   &kp LG(N8)       &kp LG(N9)       &kp LC(INS)  &none                                       &none      &trans  &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &trans
+&trans     &trans         &kp LG(N7)   &kp LG(N8)       &kp LG(N9)       &kp LC(INS)  &none                                       &none      &trans  &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &trans
 &trans     &kp LG(LS(S))  &kp LG(N4)   &kp LG(N5)       &kp LG(N6)       &trans       &none   &trans  &trans      &trans  &trans  &none      &trans  &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &trans
 &trans     &kp LC(F5)     &kp LG(N1)   &kp LG(N2)       &kp LG(N3)       &trans                       &trans      &trans                     &trans  &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &trans
 &trans     &trans         &trans       &trans           &trans                        &trans  &trans  &trans      &trans  &trans  &kp KP_N0          &trans      &trans        &kp KP_DOT     &kp RBKT         &trans
