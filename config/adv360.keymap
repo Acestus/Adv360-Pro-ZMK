@@ -35,7 +35,7 @@
             bindings = <&kp PG_DN>, <&kp PG_UP>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         at_sign: at_sign {
@@ -44,7 +44,7 @@
             bindings = <&kp AT_SIGN>, <&kp GRAVE>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
 
