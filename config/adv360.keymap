@@ -39,7 +39,7 @@
         default_layer {
             bindings = <
 &mt DLLR HASH      &mt PRCNT AMPS  &mt N7 LBKT        &mt N5 LBRC       &mt N3 RBRC  &mt N1 LPAR  &kp PG_UP                                                &mo 3      &mt N9 EQUAL  &mt N0 STAR  &mt N2 RPAR  &mt N4 PLUS      &mt N6 RBKT   &mt N8 EXCL
-&kp BACKSLASH      &mt COLON SEMI  &mt LA(TAB) COMMA  &mt RC(V) PERIOD  &kp P        &mt LC(C) Y  &kp PG_DN                                                &kp PG_DN  &kp F         &kp G        &kp C        &kp R            &kp L         &kp FSLH
+&kp BACKSLASH      &mt COLON SEMI  &mt LA(TAB) COMMA  &mt RC(V) PERIOD  &kp P        &mt LC(C) Y  &kp PG_DN                                                &mo 4      &kp F         &kp G        &kp C        &kp R            &kp L         &kp FSLH
 &kp LS(LA(LCTRL))  &kp A           &kp O              &kp E             &hm LCTRL U  &kp I        &mo 2      &kp LCTRL  &kp LALT      &kp LALT  &kp RCTRL  &mo 2      &kp D         &hm RCTRL H  &kp T        &kp N            &kp S         &kp MINUS
 &mo 1              &mt DQT SQT     &kp Q              &kp J             &kp K        &kp X                              &kp LGUI      &kp RGUI                        &kp B         &kp M        &kp W        &kp V            &kp Z         &mo 1
 &kp LSHFT          &kp HOME        &kp END            &kp LEFT          &kp RIGHT                 &kp BSPC   &kp DEL    &kp TAB       &kp ESC   &kp ENTER  &kp SPACE                &kp UP       &kp DOWN     &mt CARET TILDE  &mt GRAVE AT  &kp LSHFT
@@ -88,7 +88,7 @@
 
         qwerty {
             bindings = <
-&kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6                                      &kp N7  &kp N8  &kp N9  &kp N0     &kp MINUS  &kp EQUAL  &kp BSPC
+&kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6                                      &mo 0   &kp N8  &kp N9  &kp N0     &kp MINUS  &kp EQUAL  &kp BSPC
 &kp TAB    &kp Q   &kp W   &kp E   &kp R   &kp T   &kp Y                                       &kp U   &kp Y   &kp U   &kp I      &kp O      &kp P      &kp BSLH
 &kp CAPS   &kp A   &kp S   &kp D   &kp F   &kp G   &kp H   &trans  &trans      &trans  &trans  &kp J   &kp H   &kp J   &kp K      &kp L      &kp SEMI   &kp ENTER
 &kp LSHFT  &kp Z   &kp X   &kp C   &kp V   &kp B                   &trans      &trans                  &kp N   &kp M   &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
