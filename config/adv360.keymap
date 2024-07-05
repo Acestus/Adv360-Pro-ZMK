@@ -58,7 +58,7 @@
             bindings = <
 &mt DLLR HASH      &mt PRCNT AMPS  &mt N7 LBKT        &mt N5 LBRC       &mt N3 RBRC  &mt N1 LPAR  &page_down                                                &mo 3      &mt N9 EQUAL  &mt N0 STAR  &mt N2 RPAR  &mt N4 PLUS      &mt N6 RBKT  &mt N8 EXCL
 &kp BACKSLASH      &mt COLON SEMI  &mt LA(TAB) COMMA  &mt RC(V) PERIOD  &kp P        &mt LC(C) Y  &mo 4                                                     &mo 4      &kp F         &kp G        &kp C        &kp R            &kp L        &kp FSLH
-&kp LS(LA(LCTRL))  &kp A           &kp O              &kp E             &hm LCTRL U  &kp I        &mo 2       &kp LCTRL  &kp LALT      &kp LALT  &kp RCTRL  &mo 2      &kp D         &hm RCTRL H  &kp T        &kp N            &kp S        &kp MINUS
+&kp LS(LA(LCTRL))  &kp A           &kp O              &kp E             &hm LCTRL U  &kp I        &mo 2       &kp LCTRL  &kp LALT      &kp LALT  &kp RCTRL  &mo 2      &kp D         &hm RCTRL H  &kp T        &kp N            &kp S        &hm LS(LC(RALT)) MINUS
 &mo 1              &mt DQT SQT     &kp Q              &kp J             &kp K        &kp X                               &kp LGUI      &kp RGUI                        &kp B         &kp M        &kp W        &kp V            &kp Z        &mo 1
 &kp LSHFT          &kp HOME        &kp END            &kp LEFT          &kp RIGHT                 &kp BSPC    &kp DEL    &kp TAB       &kp ESC   &kp ENTER  &kp SPACE                &kp UP       &kp DOWN     &mt CARET TILDE  &at_sign     &kp LSHFT
             >;
