@@ -56,21 +56,21 @@
 
         default_layer {
             bindings = <
-&mt DLLR HASH      &mt PRCNT AMPS  &mt N7 LBKT        &mt N5 LBRC       &mt N3 RBRC  &mt N1 LPAR  &page_down                                                &mo 3      &mt N9 EQUAL  &mt N0 STAR  &mt N2 RPAR  &mt N4 PLUS      &mt N6 RBKT  &mt N8 EXCL
-&kp BACKSLASH      &mt COLON SEMI  &mt LA(TAB) COMMA  &mt RC(V) PERIOD  &kp P        &mt LC(C) Y  &mo 4                                                     &mo 4      &kp F         &kp G        &kp C        &kp R            &kp L        &kp FSLH
-&kp LS(LA(LCTRL))  &kp A           &kp O              &kp E             &hm LCTRL U  &kp I        &mo 2       &kp LCTRL  &kp LALT      &kp LALT  &kp RCTRL  &mo 2      &kp D         &kp H        &kp T        &kp N            &kp S        &hm LS(LC(RALT)) MINUS
-&mo 1              &mt DQT SQT     &kp Q              &kp J             &kp K        &kp X                               &kp LGUI      &kp RGUI                        &kp B         &kp M        &kp W        &kp V            &kp Z        &mo 1
-&kp LSHFT          &kp HOME        &kp END            &kp LEFT          &kp RIGHT                 &kp BSPC    &kp DEL    &kp TAB       &kp ESC   &kp ENTER  &kp SPACE                &kp UP       &kp DOWN     &mt CARET TILDE  &at_sign     &kp LSHFT
+&mt DLLR HASH      &mt PRCNT AMPS  &mt N7 LBKT        &mt N5 LBRC       &mt N3 RBRC  &mt N1 LPAR  &mo 1                                                         &mo 1            &mt N9 EQUAL  &mt N0 STAR  &mt N2 RPAR  &mt N4 PLUS      &mt N6 RBKT  &mt N8 EXCL
+&kp BACKSLASH      &mt COLON SEMI  &mt LA(TAB) COMMA  &mt RC(V) PERIOD  &kp P        &mt LC(C) Y  &kp LEFT_SHIFT                                                &kp RIGHT_SHIFT  &kp F         &kp G        &kp C        &kp R            &kp L        &kp FSLH
+&kp LS(LA(LCTRL))  &kp A           &kp O              &kp E             &hm LCTRL U  &kp I        &mo 2           &kp LCTRL  &kp LALT      &kp LALT  &kp RCTRL  &mo 2            &kp D         &kp H        &kp T        &kp N            &kp S        &hm LS(LC(RALT)) MINUS
+&mo 1              &mt DQT SQT     &kp Q              &kp J             &kp K        &kp X                                   &kp LGUI      &kp RGUI                              &kp B         &kp M        &kp W        &kp V            &kp Z        &mo 3
+&kp LSHFT          &kp HOME        &kp END            &kp LEFT          &kp RIGHT                 &kp BSPC        &kp DEL    &kp TAB       &kp ESC   &kp ENTER  &kp SPACE                      &kp UP       &kp DOWN     &mt CARET TILDE  &at_sign     &kp LSHFT
             >;
         };
 
         keypad {
             bindings = <
-&trans  &kp LC(F4)  &kp LA(F12)  &kp LA(LC(TAB))  &kp LS(LC(TAB))  &kp LC(TAB)  &kp PAGE_UP                                      &mo 3      &trans  &kp KP_NUM  &kp EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp LC(F12)
-&trans  &trans      &kp LG(N7)   &kp LG(N8)       &kp LC(V)        &kp LC(C)    &trans                                           &none      &trans  &kp KP_N7   &kp KP_N8  &kp KP_N9      &kp KP_MINUS     &trans
-&trans  &trans      &kp LG(N4)   &kp LG(N5)       &kp LG(N6)       &kp LC(INS)  &trans       &trans  &trans      &trans  &trans  &none      &trans  &kp KP_N4   &kp KP_N5  &kp KP_N6      &kp KP_PLUS      &trans
-&trans  &kp LC(F5)  &kp LG(N1)   &kp LG(N2)       &kp LG(N3)       &kp LG(V)                         &trans      &trans                     &trans  &kp KP_N1   &kp KP_N2  &kp KP_N3      &kp KP_ENTER     &trans
-&trans  &trans      &kp INSERT   &trans           &trans                        &trans       &trans  &trans      &trans  &trans  &kp KP_N0          &trans      &trans     &kp KP_DOT     &kp GRAVE        &trans
+&trans  &kp LC(F4)  &kp LA(F12)  &kp LA(LC(TAB))  &kp LS(LC(TAB))  &kp LC(TAB)  &kp PAGE_UP                                      &mo 3      &trans  &kp KP_NUM   &kp EQUAL      &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp LC(F12)
+&trans  &trans      &kp LG(N7)   &kp LG(N8)       &kp LC(V)        &kp LC(C)    &trans                                           &none      &trans  &kp KP_N7    &kp KP_N8      &kp KP_N9      &kp KP_MINUS     &trans
+&trans  &trans      &kp LG(N4)   &kp LG(N5)       &kp LG(N6)       &kp LC(INS)  &trans       &trans  &trans      &trans  &trans  &none      &trans  &kp KP_N4    &kp KP_N5      &kp KP_N6      &kp KP_PLUS      &trans
+&trans  &kp LC(F5)  &kp LG(N1)   &kp LG(N2)       &kp LG(N3)       &kp LG(V)                         &trans      &trans                     &trans  &kp KP_N1    &kp KP_N2      &kp KP_N3      &kp KP_ENTER     &trans
+&trans  &trans      &kp INSERT   &trans           &trans                        &trans       &trans  &trans      &trans  &trans  &kp KP_N0          &kp PAGE_UP  &kp PAGE_DOWN  &kp KP_DOT     &kp GRAVE        &trans
             >;
         };
 
