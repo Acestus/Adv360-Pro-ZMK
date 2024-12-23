@@ -104,7 +104,7 @@
         one: one {
             compatible = "zmk,behavior-mod-morph";
             label = "ONE";
-            bindings = <&kp LEFT_PARENTHESIS>, <&kp KP_N1>;
+            bindings = <&kp LEFT_PARENTHESIS>, <&kp N1>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
