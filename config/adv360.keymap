@@ -46,6 +46,33 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        octathorpe: octathorpe {
+            compatible = "zmk,behavior-mod-morph";
+            label = "OCTATHORPE";
+            bindings = <&kp POUND>, <&kp DOLLAR>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT|MOD_LSFT)>;
+        };
+
+        ampersand: ampersand {
+            compatible = "zmk,behavior-mod-morph";
+            label = "AMPERSAND";
+            bindings = <&kp AMPERSAND>, <&kp PERCENT>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        tilde: tilde {
+            compatible = "zmk,behavior-mod-morph";
+            label = "TILDE";
+            bindings = <&kp TILDE>, <&kp CARET>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     macros {
@@ -56,11 +83,11 @@
 
         default_layer {
             bindings = <
-&mt DLLR HASH      &mt PRCNT AMPS  &mt N7 LBKT  &mt N5 LBRC  &mt N3 RBRC  &mt N1 LPAR  &mo 1                                                         &mo 1            &mt N9 EQUAL  &mt N0 STAR  &mt N2 RPAR  &mt N4 PLUS      &mt N6 RBKT  &mt N8 EXCL
-&kp BACKSLASH      &mt COLON SEMI  &kp COMMA    &kp DOT      &kp P        &kp Y        &kp LEFT_SHIFT                                                &kp RIGHT_SHIFT  &kp F         &kp G        &kp C        &kp R            &kp L        &kp FSLH
-&kp LS(LA(LCTRL))  &kp A           &kp O        &kp E        &kp U        &kp I        &mo 2           &kp LCTRL  &kp LALT      &kp LALT  &kp RCTRL  &mo 2            &kp D         &kp H        &kp T        &kp N            &kp S        &hm LS(LC(RALT)) MINUS
-&mo 1              &mt DQT SQT     &kp Q        &kp J        &kp K        &kp X                                   &kp LGUI      &kp RGUI                              &kp B         &kp M        &kp W        &kp V            &kp Z        &mo 3
-&kp LSHFT          &kp HOME        &kp END      &kp LEFT     &kp RIGHT                 &kp BSPC        &kp DEL    &kp TAB       &kp ESC   &kp ENTER  &kp SPACE                      &kp UP       &kp DOWN     &mt CARET TILDE  &at_sign     &kp LSHFT
+&octathorpe        &ampersand      &mt N7 LBKT  &mt N5 LBRC  &mt N3 RBRC  &mt N1 LPAR  &mo 1                                                         &mo 1            &mt N9 EQUAL  &mt N0 STAR  &mt N2 RPAR  &mt N4 PLUS  &mt N6 RBKT  &mt N8 EXCL
+&kp BACKSLASH      &mt COLON SEMI  &kp COMMA    &kp DOT      &kp P        &kp Y        &kp LEFT_SHIFT                                                &kp RIGHT_SHIFT  &kp F         &kp G        &kp C        &kp R        &kp L        &kp FSLH
+&kp LS(LA(LCTRL))  &kp A           &kp O        &kp E        &kp U        &kp I        &mo 2           &kp LCTRL  &kp LALT      &kp LALT  &kp RCTRL  &mo 2            &kp D         &kp H        &kp T        &kp N        &kp S        &hm LS(LC(RALT)) MINUS
+&mo 1              &mt DQT SQT     &kp Q        &kp J        &kp K        &kp X                                   &kp LGUI      &kp RGUI                              &kp B         &kp M        &kp W        &kp V        &kp Z        &mo 3
+&kp LSHFT          &kp HOME        &kp END      &kp LEFT     &kp RIGHT                 &kp BSPC        &kp DEL    &kp TAB       &kp ESC   &kp ENTER  &kp SPACE                      &kp UP       &kp DOWN     &tilde       &at_sign     &kp LSHFT
             >;
         };
 
