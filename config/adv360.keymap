@@ -73,6 +73,60 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        seven: seven {
+            compatible = "zmk,behavior-mod-morph";
+            label = "SEVEN";
+            bindings = <&kp LEFT_BRACKET>, <&kp KP_N7>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        five: five {
+            compatible = "zmk,behavior-mod-morph";
+            label = "FIVE";
+            bindings = <&kp LEFT_BRACE>, <&kp KP_N5>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        three: three {
+            compatible = "zmk,behavior-mod-morph";
+            label = "THREE";
+            bindings = <&kp RIGHT_BRACE>, <&kp KP_N3>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        one: one {
+            compatible = "zmk,behavior-mod-morph";
+            label = "ONE";
+            bindings = <&kp LEFT_PARENTHESIS>, <&kp KP_N1>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        nine: nine {
+            compatible = "zmk,behavior-mod-morph";
+            label = "NINE";
+            bindings = <&kp EQUAL>, <&kp KP_N9>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        zero: zero {
+            compatible = "zmk,behavior-mod-morph";
+            label = "ZERO";
+            bindings = <&kp ASTERISK>, <&kp KP_N0>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     macros {
@@ -83,11 +137,11 @@
 
         default_layer {
             bindings = <
-&octathorpe        &ampersand      &mt N7 LBKT  &mt N5 LBRC  &mt N3 RBRC  &mt N1 LPAR  &mo 1                                                         &mo 1            &mt N9 EQUAL  &mt N0 STAR  &mt N2 RPAR  &mt N4 PLUS  &mt N6 RBKT  &mt N8 EXCL
-&kp BACKSLASH      &mt COLON SEMI  &kp COMMA    &kp DOT      &kp P        &kp Y        &kp LEFT_SHIFT                                                &kp RIGHT_SHIFT  &kp F         &kp G        &kp C        &kp R        &kp L        &kp FSLH
-&kp LS(LA(LCTRL))  &kp A           &kp O        &kp E        &kp U        &kp I        &mo 2           &kp LCTRL  &kp LALT      &kp LALT  &kp RCTRL  &mo 2            &kp D         &kp H        &kp T        &kp N        &kp S        &hm LS(LC(RALT)) MINUS
-&mo 1              &mt DQT SQT     &kp Q        &kp J        &kp K        &kp X                                   &kp LGUI      &kp RGUI                              &kp B         &kp M        &kp W        &kp V        &kp Z        &mo 3
-&kp LSHFT          &kp HOME        &kp END      &kp LEFT     &kp RIGHT                 &kp BSPC        &kp DEL    &kp TAB       &kp ESC   &kp ENTER  &kp SPACE                      &kp UP       &kp DOWN     &tilde       &at_sign     &kp LSHFT
+&octathorpe        &ampersand      &seven     &five     &three     &one   &mo 1                                                         &mo 1            &nine  &zero   &mt N2 RPAR  &mt N4 PLUS  &mt N6 RBKT  &mt N8 EXCL
+&kp BACKSLASH      &mt COLON SEMI  &kp COMMA  &kp DOT   &kp P      &kp Y  &kp LEFT_SHIFT                                                &kp RIGHT_SHIFT  &kp F  &kp G   &kp C        &kp R        &kp L        &kp FSLH
+&kp LS(LA(LCTRL))  &kp A           &kp O      &kp E     &kp U      &kp I  &mo 2           &kp LCTRL  &kp LALT      &kp LALT  &kp RCTRL  &mo 2            &kp D  &kp H   &kp T        &kp N        &kp S        &hm LS(LC(RALT)) MINUS
+&mo 1              &mt DQT SQT     &kp Q      &kp J     &kp K      &kp X                             &kp LGUI      &kp RGUI                              &kp B  &kp M   &kp W        &kp V        &kp Z        &mo 3
+&kp LSHFT          &kp HOME        &kp END    &kp LEFT  &kp RIGHT         &kp BSPC        &kp DEL    &kp TAB       &kp ESC   &kp ENTER  &kp SPACE               &kp UP  &kp DOWN     &tilde       &at_sign     &kp LSHFT
             >;
         };
 
